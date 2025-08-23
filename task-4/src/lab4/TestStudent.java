@@ -1,0 +1,9 @@
+package lab4;
+
+public class TestStudent {
+    public static void main(String[] args) {
+        Student s1 = new Student();
+        s1.setDetails(101, "A", "Alice");
+        s1.showDetails();
+    }
+}
